@@ -52,13 +52,13 @@ def show_result_dialog(ans1, ans2, ans3, ans4):
         st.error(f"❌ ข้อ 2: ยังไม่ถูกต้อง (คุณตอบ '{u_ans2}')")
 
     # ตรวจข้อ 3
-    if u_ans3 == "Coconut":
+    if u_ans3 == "coconut":
         st.success("✅ ข้อ 3: ถูกต้อง")
         score += 1
     else:
         st.error(f"❌ ข้อ 3: ยังไม่ถูกต้อง (คุณตอบ '{u_ans3}')")
    # ตรวจข้อ 4
-    if u_ans4 == "Car":
+    if u_ans4 == "car":
         st.success("✅ ข้อ 4: ถูกต้อง")
         score += 1
     else:
@@ -100,11 +100,11 @@ ans2 = st.text_input(
     value=st.session_state.ans2_val,
 )
 ans3 = st.text_input(
-    "ข้อ 3: `C _ conut` is found in Hawaii. 🥥 ",
+    "ข้อ 3: `c _ conut` is found in Hawaii. 🥥 ",
     value=st.session_state.ans3_val,
 )
 ans4 = st.text_input(
-    "ข้อ 4: We drive a `C _ r` to school.🚗",
+    "ข้อ 4: We drive a `c _ r` to school.🚗",
     value=st.session_state.ans4_val,
 )
 # อัปเดตค่าล่าสุดเข้าตัวแปร
