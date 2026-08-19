@@ -100,11 +100,11 @@ ans2 = st.text_input(
     value=st.session_state.ans2_val,
 )
 ans3 = st.text_input(
-    "ข้อ 3: `C_conut` is found in Hawaii. 🥥 ",
+    "ข้อ 3: `C _ conut` is found in Hawaii. 🥥 ",
     value=st.session_state.ans3_val,
 )
 ans4 = st.text_input(
-    "ข้อ 4: We drive a `C_r` to school.🚗",
+    "ข้อ 4: We drive a `C _ r` to school.🚗",
     value=st.session_state.ans4_val,
 )
 # อัปเดตค่าล่าสุดเข้าตัวแปร
